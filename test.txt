@@ -1,0 +1,16 @@
+public class test {
+    public static void main() {
+
+        Integer num1 = 10;
+        Integer num2 = 5;
+        
+        Integer sum = Calculator.add(num1, num2);
+        System.debug('Sum: ' + sum); 
+        
+        Integer difference = Calculator.subtract(num1, num2);
+        System.debug('Difference: ' + difference);
+        
+        Integer product = Calculator.multiply(num1, num2);
+        System.debug('Product: ' + product); 
+    }
+}
